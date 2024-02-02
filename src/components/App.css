@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#root{
+    width: 95%;
+    height: 100%; 
+}
+.app{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+.display{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    gap:50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:10px;
+    width: 60%;
+    height: fit-content;
+    
+}
+.right-main-div{
+    width: 40%;
+    height: 100%;
+   
+}
+.Card{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(252, 128, 128);
+    border-radius: 20px;
+}
+.Card div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card button{
+    width: 80px;
+}
+.Card img{
+    width: 100%;
+    height: 200px;
+}
+.cart,.wishlist{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(92, 92, 92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+.wishlist{
+    background-color: green;
+   color: black;
+}
+.item-container-wishlist{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    align-self: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    overflow-y: scroll;
+    gap: 20px;
+    
+   
+}
+
+::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+.items-wishlist{
+    display: flex;
+   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
